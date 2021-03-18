@@ -1,0 +1,37 @@
+.location__bar {
+  box-shadow: 0 1px 5px #e5e5e5;
+  padding: 8px 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.location__bar > ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.location__bar > ul > li {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.location__bar > ul > li:last-child > .title {
+  color: black;
+}
+.location__bar > ul > li:last-child > .title:hover {
+  /* color: rebeccapurple; */
+  text-decoration: none;
+  cursor: unset;
+}
+
+.location__bar > ul > li > .title {
+  margin-right: 10px;
+  cursor: pointer;
+  color: lightgray;
+}
+.location__bar > ul > li > .title:hover {
+  /* text-decoration: underline black; */
+  color: black;
+}

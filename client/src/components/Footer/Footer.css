@@ -1,0 +1,19 @@
+.footer {
+  background-color: black;
+  margin: auto;
+}
+.footer__container {
+  width: 1125px;
+  margin: auto;
+  /* height: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 0;
+}
+.footer__container > span {
+  color: white;
+  margin: auto;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,62 @@
+.payment {
+  background-color: #e4f1f9;
+  padding: 20px;
+  max-width: 878px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.step__title > h2 {
+  font-weight: 300;
+  margin: 0;
+}
+.step__title > h2 > span {
+  background-color: #404040;
+  color: #e4f1f9;
+  border-radius: 50%;
+  text-align: center;
+  padding: 4px 9px;
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 25px;
+}
+.payment__info {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px #e5e5e5;
+  /* padding: 20px 20px; */
+  margin-top: 20px;
+}
+.payment__info > hr {
+  padding: 0 20px !important;
+}
+.MuiBadge-colorPrimary {
+  background-color: rgb(23, 235, 69) !important;
+  color: #fff;
+}
+
+.payment__info__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment__option {
+  padding: 15px 20px;
+}
+
+.payment__option > label {
+  margin-left: 15px;
+}
+
+.payment__option > label > span {
+  margin-left: 50px;
+  background-color: chartreuse;
+}
+
+.separator {
+  width: 90%;
+  border-bottom: 1px solid #888;
+  margin-bottom: -1px;
+  margin: 0 auto;
+}

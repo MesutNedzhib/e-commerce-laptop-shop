@@ -1,0 +1,18 @@
+html {
+  user-select: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f7f7;
+  z-index: 999;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  margin-top: 55px;
+  /* width: 1149px; */
+  /* max-height: 1000px; */
+}

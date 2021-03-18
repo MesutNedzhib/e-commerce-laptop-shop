@@ -1,0 +1,75 @@
+.filters__group {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0 1px 5px #e5e5e5;
+  border-radius: 10px;
+  padding: 5px 0;
+}
+.filters__group__name {
+  margin: 5px 20px;
+}
+.filters__group__name > h3 {
+  font-weight: 550;
+}
+.filters__group__body {
+  margin-bottom: 10px;
+}
+
+.filters__group > input {
+  outline: none;
+  border: 1px solid #888;
+  color: #888;
+  /* margin: 0 20px;
+  margin-bottom: 3px;
+  margin-top: 3px; */
+  margin: auto 12px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  width: 81%;
+}
+.filters__group > input:focus {
+  border: 1px solid #005cc8;
+}
+
+ul::-webkit-scrollbar {
+  width: 8px;
+}
+ul::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+.filters__group__body > ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 17px;
+  margin-right: 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 200px;
+}
+.filters__group__body > ul > label > li {
+  margin: 5px 0;
+  display: flex;
+  /* align-items: center; */
+}
+.filters__group__body > ul > label > li:hover > label{
+  color: black;
+}
+.filters__group__body > ul > label > li > input{
+  align-items: flex-start;
+}
+label {
+  cursor: pointer;
+}
+.filters__group__body > ul > label > li > label {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  padding-top: 1px;
+  cursor: pointer !important;
+  color:rgb(63, 63, 63)
+}
+

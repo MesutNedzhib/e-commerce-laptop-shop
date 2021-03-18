@@ -1,0 +1,23 @@
+.image__slider__l {
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.image__slider__l:hover {
+  opacity: 0.8;
+}
+.image__slider__l .carousel.carousel-slider {
+  border-radius: 10px;
+}
+
+.image__slider__l .carousel .slider-wrapper.axis-horizontal .slider .slide img {
+  height: 100%;
+  object-fit: cover;
+}
+/* .image__slider__l .carousel .slider-wrapper.axis-horizontal ul li:hover {
+  border-radius: 20px;
+} */
+.carousel .control-dots .dot.selected,
+.carousel .control-dots .dot:focus {
+  outline: none;
+}

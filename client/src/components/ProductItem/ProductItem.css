@@ -1,0 +1,109 @@
+.product__item {
+  width: 215px;
+  max-height: 420px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 1px 5px #e5e5e5;
+  /* margin-left: 10px; */
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.product__item:hover {
+  box-shadow: 0px 0px 5px #2997ce;
+}
+.product__item > a > img {
+  max-width: 170px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.product__item__body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: flex-start;
+}
+
+.product__item__body > a {
+  text-align: center;
+  font-size: 18px;
+  max-height: 84px;
+  padding: 0 14px;
+  /* margin: auto; */
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.product__item__body > a:hover {
+  text-decoration: underline black;
+}
+.product__item__body > a > p {
+  /* text-align: center;
+  font-size: 18px;
+  max-height: 84px;
+  padding: 0 10px;
+  margin: auto;
+  font-weight: 600; */
+  margin: 10px 0;
+  color: black;
+}
+.product__item__body > ul {
+  list-style-type: none;
+  margin: 10px 25px;
+  /* padding: 0 20px; */
+  padding: 0;
+  /* border-bottom: 1px solid #888; */
+}
+.product__item__body > ul > li {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+.product__item__body > ul > li > span {
+  margin-left: 10px;
+  color:rgb(63, 63, 63)
+}
+.product__item__bottom {
+  display: flex;
+  /* border-top: 1px solid #888; */
+  width: 100%;
+  justify-content: space-between;
+  background-color: #4e88cf;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: #ffffff;
+}
+
+.product__item__bottom__price {
+  padding: 8px;
+  margin-left: 8px;
+}
+
+.product__item__bottom__buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #4e88cf;
+  /* background-color: #1f7099; */
+  flex: 0.4;
+  color: white;
+  border-bottom-right-radius: 10px;
+  color: greenyellow;
+}
+.product__item__bottom__buy:hover {
+  background-color: #295a96;
+  /* color: white; */
+  color: greenyellow;
+}
+
+.icon {
+  font-size: 15px !important;
+  /* color: #df3891; */
+  color: rgb(231, 56, 56);
+}

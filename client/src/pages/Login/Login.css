@@ -1,0 +1,84 @@
+.login {
+  width: 100%;
+}
+.login__container {
+  width: 400px;
+  margin: auto;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login__header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__body {
+  margin-top: 20px;
+  width: 100%;
+  background-color: white;
+  box-shadow: rgb(6 22 33 / 20%) 0px 2px 6px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+.login__body > h1 {
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.form__option {
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+}
+.form__option > label {
+  text-align: center;
+}
+.form__option > input {
+  margin: 10px 0;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid rgb(219, 219, 219);
+}
+.form__option > input:hover {
+  border: 2px solid rgba(78, 78, 163, 0.993);
+}
+.form__option > input:focus {
+  border: 2px solid rgba(78, 78, 163, 0.993);
+}
+
+.form__option > button {
+  margin: 10px 0;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid rgb(90, 90, 233);
+  background-color: rgb(90, 90, 233);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+}
+.form__option > button:hover {
+  background-color: rgb(46, 46, 150);
+}
+
+.form__option.last {
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+.MuiTypography-root {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+Link {
+  text-decoration: none;
+  color: red;
+}

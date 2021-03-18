@@ -1,0 +1,239 @@
+.header {
+  /* background: linear-gradient(to right, #295a96, #74abee); */
+  /* background: linear-gradient(to right, #295a96, #5f94d4); */
+  background: linear-gradient(to right, #368fe9, #f159e5 95%);
+
+  /* box-shadow: 0px 5px 10px -2px #e7e7e7; */
+  position: fixed;
+  width: 100%;
+  box-shadow: rgb(6 22 33 / 20%) 0px 2px 6px;
+  /* position: sticky; */
+  top: 0;
+  z-index: 99;
+  backdrop-filter: blur(50px);
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* height: 60px; */
+  margin: auto;
+  /* padding: 0 20px; */
+  /* position: sticky; */
+  top: 0;
+  z-index: 100;
+  width: 1125px;
+  /* max-width: 1160px; */
+}
+
+.header__left__side {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  /* margin-right: 80px; */
+}
+.header__logo > a {
+  text-decoration: none;
+}
+.header__logo > a >h4 {
+  cursor: pointer;
+  display: inline;
+  font-size: 18px;
+  margin: 0;
+  margin-left: 10px;
+  color: white;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.header__option {
+  font-size: 18px;
+  cursor: pointer;
+}
+.header__option > a > span{
+  color: #84f124;
+  font-weight: 600;
+  transition: 0.2s;
+}
+.header__option > a {
+  color: white;
+  text-decoration: none;
+}
+.header__option > a:hover > span{
+  color: white;
+}
+.header__right__side {
+  display: flex;
+  align-items: center;
+}
+
+.header__option__search {
+  display: flex;
+  align-items: center;
+  margin-right: 28px;
+}
+
+.header__option__search > input.input__text {
+  width: 150px;
+}
+.header__option__search:hover > input {
+  width: 150px;
+}
+.header__option__search > input {
+  line-height: 20px;
+  padding: 0;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid white;
+  width: 0;
+  transition: 0.4s;
+  background: transparent;
+  color: white;
+}
+.header__option__search > svg {
+  cursor: pointer;
+  color: white;
+}
+.header__option__cart {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  cursor: pointer;
+  align-items: center;
+  padding: 13px;
+}
+
+.header__option__account {
+  /* flex: 0.6; */
+  /* background-color: hotpink; */
+  padding: 15px;
+  /* height: 24px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px; */
+}
+
+.header__option__account__content {
+  /* padding: 15px; */
+  height: 24px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+  justify-content: center;
+}
+.userAvatar {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstUserLetter {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  /* background: linear-gradient(to right, #91e842 46%, #d2ff52 90%, #d2ff52 90%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5px;
+  color: white;
+  background: linear-gradient(to right, #fc8642, #eafa06 95%);
+}
+.account__content.dropdown {
+  visibility: visible;
+  height: 115px;
+}
+.account__content.dropdown > li {
+  visibility: visible;
+  transform: translateY(0);
+}
+.account__content {
+  background: linear-gradient(to right, #368fe9, #f374e8 95%);
+  list-style-type: none;
+  position: absolute;
+  top: 45px;
+  margin-left: -132px;
+  /* padding: 10px; */
+  width: 160px;
+  border-radius: 10px;
+  box-shadow: rgb(6 22 33 / 20%) 0px 2px 6px;
+  visibility: hidden;
+  height: 0;
+  transition: 0.35s;
+}
+.account__content > li {
+  margin: 10px;
+  margin-left: 15px;
+  font-size: 14px;
+  color: #f7f7f7;
+  transition: 0.3s;
+  visibility: hidden;
+  transform: translateX(30em);
+}
+.account__content > li > .separator {
+  height: 1px;
+  width: 0;
+  transition: 0.4s;
+  background-color: rgb(172, 231, 55);
+  border-bottom: none;
+  margin: 0;
+  margin-top: 5px;
+}
+.account__content > li:hover {
+  color: rgb(174, 240, 41);
+  /* color: rgb(19, 17, 19); */
+}
+.account__content > li:hover .separator {
+  width: 100%;
+  background-color: rgb(172, 231, 55);
+}
+.account__content > li > a {
+  text-decoration: none;
+  color: #f7f7f7;
+  transition: 0.4s;
+}
+.account__content > li > a:hover {
+  color: rgb(174, 240, 41);
+}
+.header__option__account__info {
+  margin-left: 7px;
+}
+
+.header__option__account__info > span {
+  font-size: 10px;
+}
+
+.header__option__account__info > h5 {
+  margin: 0;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.log {
+  /* margin: 0 10px; */
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+  padding: 5px 0;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(28, 111, 236);
+  outline: none;
+  cursor: pointer;
+}
+.log:hover {
+  background-color: rgb(6, 72, 172);
+}
+.header__link {
+  text-decoration: none;
+}
