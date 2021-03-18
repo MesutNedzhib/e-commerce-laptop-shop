@@ -18,7 +18,6 @@ function App() {
 
   return (
     <div className="App">
-      testt
       <Header
         showAccountBar={showAccountBar}
         setShowAccountBar={setShowAccountBar}
