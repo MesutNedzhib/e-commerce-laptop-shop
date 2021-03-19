@@ -20,7 +20,7 @@ connectDatabase();
 
 const PORT = process.env.PORT;
 
-app.listen(PORT, () => {
+app.listen(PORT || 3000, () => {
   console.log(`App Started on PORT ${PORT} : 'http://localhost:${PORT}'`);
 });
 
