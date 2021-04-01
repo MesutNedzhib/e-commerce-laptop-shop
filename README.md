@@ -5,15 +5,19 @@ E-Commerce Laptop Shop is online shop for sell on laptops.
 Link: https://laptop-shop.netlify.app/
 - version: demo
 
+## Framework
+- React
+
 ## Dependencies
-`Server / Backend`
+`Server`
 - bcrypt
 - dotenv
 - express
 - jsonwebtoken
-- mongoose
+- mongodb
 
-`Client / Frontend`
+`Client`
+- react-redux
 - material-ui
 - react-router-dom
 - react-responsive-carousel
