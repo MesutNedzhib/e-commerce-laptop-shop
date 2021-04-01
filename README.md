@@ -12,3 +12,10 @@ Link: https://laptop-shop.netlify.app/
 - express
 - jsonwebtoken
 - mongoose
+
+`Client / Frontend`
+- material-ui
+- react-router-dom
+- react-responsive-carousel
+- axios
+
